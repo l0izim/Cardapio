@@ -195,57 +195,67 @@
     
           
         <header class="bg-danger text-white fixed-top">
-          <div class="collapse " id="navbarHeader">
+          <nav class="navbar fixed-top bg-danger text-white shadow-lg">
             <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-12 col-md-12 py-4">
-                  <ul class="nav-underline nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                      <a href="porcoes.html" class="nav-link text-white ">
-                          <img class="bi d-block mx-auto img-fluid" src="../imgHeader/fried-chicken.png" width="30" height="30"/>
-                          Porções
-                      </a>
-                    </li>
-                    <li>
-                      <a href="burger.html" class="nav-link text-white">
-                            <img class="bi d-block mx-auto img-fluid" src="../imgHeader/hamburger.png" width="30" height="30"/>
-                          Burgers
-                      </a>
-                    </li>
-                    <li>
-                      <a href="smash.html" class="nav-link text-white active">
-                          <img class="bi d-block mx-auto img-fluid" src="../imgHeader/burger.png" width="30" height="30"/>
-                          Smash
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sobremesa.html" class="nav-link text-white">
-                          <img class="bi d-block mx-auto img-fluid" src="../imgHeader/whip-cream.png" width="30" height="30"/>
-                          Sobremesa
-                      </a>
-                    </li>
-                    <li>
-                        <a href="bebida.html" class="nav-link text-white ">
-                          <img class="bi d-block mx-auto img-fluid" src="../imgHeader/can.png" width="30" height="30"/>
-                          Bedidas
-                        </a>
-                    </li>
-                </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="navbar navbar-dark shadow-lg">
-            <div class="container">
+
               <a href="#" class="navbar-brand d-flex align-items-center">
-                <img class="bi d-block mx-auto img-fluid me-1" src="../imgHeader/burger.png" width="25" height="25"/>
-                <strong class="display-6 text-white">Smash</strong>
+                <img class="bi d-block mx-auto img-fluid me-1" src="../imgHeader/can.png" width="30" height="30"/>
+                <strong class="display-6 text-white">Bebida</strong>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
+
+              <div class="offcanvas offcanvas-end bg-danger " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Cardapio</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                  <ul class="nav-underline nav col-12 col-lg-auto my-2 my-md-0 text-small d-flex align-items-start flex-column">
+                    <li class="nav-item">
+                      <a href="porcoes.html" class="nav-link text-white ">
+                          <img class="bi  mx-auto img-fluid" src="../imgHeader/fried-chicken.png" width="30" height="30"/>
+                          <strong>Porções</strong>
+                      </a>
+                    </li>
+                    <br>
+                    <li class="nav-item">
+                      <a href="burger.html" class="nav-link text-white ">
+                            <img class="bi mx-auto img-fluid" src="../imgHeader/hamburger.png" width="30" height="30"/>
+                          <strong>Burgers</strong>
+                      </a>
+                    </li>
+                    <br>
+                    <li class="nav-item">
+                      <a href="smash.html" class="nav-link text-white active">
+                          <img class="bi  mx-auto img-fluid" src="../imgHeader/burger.png" width="30" height="30"/>
+                          <strong>Smash</strong>
+                      </a>
+                    </li>
+                    <br>
+                    <li class="nav-item">
+                      <a href="sobremesa.html" class="nav-link text-white">
+                          <img class="bi  mx-auto img-fluid" src="../imgHeader/whip-cream.png" width="30" height="30"/>
+                          <strong>Sobremesa</strong>
+                      </a>
+                    </li>
+                    <br>
+                    <li class="nav-item">
+                        <a href="bebida.html" class="nav-link text-white ">
+                          <img class="bi  mx-auto img-fluid" src="../imgHeader/can.png" width="30" height="30"/>
+                          <strong>Bedidas</strong>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
             </div>
-          </div>
+          </nav>
         </header>
         
         <main>
